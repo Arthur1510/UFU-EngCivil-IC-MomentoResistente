@@ -1,11 +1,9 @@
-#include "AppView.h"
+#include "../include/views/AppView.h"
 
 int main()
 {
-    AppView app;
+    AppView::iniciar();
+    AppView::executarLoop();
 
-    app.initialize();
-    app.mainLoop();
-    
     return 0;
 }
