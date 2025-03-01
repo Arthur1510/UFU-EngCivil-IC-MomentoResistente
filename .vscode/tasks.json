@@ -18,6 +18,7 @@
                 "-L", "lib/rlImGui/build",
                 "-o", "build/main.exe",
                 "src/main.cpp",
+                "src/AppView.cpp",
                 "-l:libimgui.a",
                 "-l:libimplot.a",
                 "-l:libraylib.a",
