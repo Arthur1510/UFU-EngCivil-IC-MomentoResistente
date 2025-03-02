@@ -1,9 +1,8 @@
-#include "../include/views/AppView.h"
+#include "Controller.h"
 
 int main()
 {
-    AppView::iniciar();
-    AppView::executarLoop();
-
-    return 0;
+	Controller app;
+	app.iniciar();
+	return 0;
 }
