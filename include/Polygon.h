@@ -26,6 +26,8 @@ public:
     Polygon();
 
     void setVertices(vector<Point> collectedVertices);
+    void addVertice(double coordX, double coordY);
+    void removeLastVertice();
     void computeMaxCoordY();
     void computeMinCoordY();
     void computeHeight();
