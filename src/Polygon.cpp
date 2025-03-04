@@ -32,6 +32,16 @@ void Polygon::setVertices(vector<Point> collectedVertices)
 	}
 }
 
+void Polygon::addVertice(double coordX, double coordY)
+{
+	polygonVertices.push_back(Point(coordX, coordY));
+}
+
+void Polygon::removeLastVertice()
+{
+	polygonVertices.pop_back();
+}
+
 void Polygon::computeMaxCoordY()
 {
 	if (polygonVertices.empty())
